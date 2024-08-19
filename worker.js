@@ -1,4 +1,4 @@
-import HTML from './docker.html';
+import HTML from './index.html';
 export default {
     async fetch(request) {
         const url = new URL(request.url);
